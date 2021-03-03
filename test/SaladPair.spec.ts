@@ -219,6 +219,7 @@ describe('SaladPair', () => {
     const initialPrice = encodePrice(token0Amount, token1Amount)
     expect(await pair.price0CumulativeLast()).to.eq(initialPrice[0])
     expect(await pair.price1CumulativeLast()).to.eq(initialPrice[1])
+    console.log('-- sleep');
     expect((await pair.getReserves())[2]).to.eq(blockTimestamp + 1)
 
     const swapAmount = expandTo18Decimals(3)
@@ -229,6 +230,7 @@ describe('SaladPair', () => {
 
     expect(await pair.price0CumulativeLast()).to.eq(initialPrice[0].mul(10))
     expect(await pair.price1CumulativeLast()).to.eq(initialPrice[1].mul(10))
+    console.log('-- sleep');
     expect((await pair.getReserves())[2]).to.eq(blockTimestamp + 10)
 
     await mineBlock(provider, blockTimestamp + 20)
