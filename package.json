@@ -1,7 +1,7 @@
 {
   "name": "@saladswap/salad-swap-core",
   "description": "🎛 Core contracts for the salad protocol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://saladswap.finance",
   "repository": {
     "type": "git",
