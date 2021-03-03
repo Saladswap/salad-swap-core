@@ -1,5 +1,5 @@
 {
-  "name": "@saladswap-libs/salad-swap-core",
+  "name": "@saladswap/salad-swap-core",
   "description": "🎛 Core contracts for the salad protocol",
   "version": "0.1.0",
   "homepage": "https://saladswap.finance",
