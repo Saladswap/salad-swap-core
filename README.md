@@ -1,1 +1,21 @@
-# salad-swap-core
+# Salad Factory
+
+[![Actions Status](https://github.com/Saladswap/salad-swap-core/workflows/CI/badge.svg)](https://github.com/Saladswap/salad-swap-core/actions)
+
+In-depth documentation on SaladSwap is available at [docs.saladswap.finance](https://docs.saladswap.finance/).
+
+# Local Development
+
+The following assumes the use of `node@>=10`.
+
+## Install Dependencies
+
+`yarn`
+
+## Compile Contracts
+
+`yarn compile`
+
+## Run Tests
+
+`yarn test`
