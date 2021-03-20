@@ -1,5 +1,6 @@
 node_modules/
 build/
 migrations/
+flatten-contracts/
 .secret
 truffle-config.js
